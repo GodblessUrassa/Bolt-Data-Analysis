@@ -72,9 +72,10 @@ Total Nr of Uncompleted bookings for 1 driver
 
 ![](campaign.jpg)
 
+|control group|bonus group|
 |---|---|
-|control group | bonus group|
-|![](control_group.jpg) | ![](bonus_group.jpg)|
+|![](control_group.jpg)|![](bonus_group.jpg)|
+
 
 The campaign was not successful. The results shows that statistically, p(0.29) > α(0.05), there is no difference in average online hours and bookings received between drivers who received monetary bonus and those who didn't receive them. Also drivers who received monetary bonus spend the same average offline hours and complete same average bookings with those who didn't receive them.
 		
