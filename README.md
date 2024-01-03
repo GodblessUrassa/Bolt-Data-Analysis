@@ -23,7 +23,11 @@ The result shows that morning hours from 6 to 8 has the lowest total finished ri
 
 ![](functions.jpg)
 
+**Formula**
+
 `` =IF(ISTEXT(INDEX($C$6:$C$55, IF(ISNUMBER(MATCH(J50,$B$6:$B$55,0)),MATCH(J50,$B$6:$B$55,0),MATCH(J50,$F$6:$F$55,0)))),INDEX($C$6:$C$55, IF(ISNUMBER(MATCH(J50,$B$6:$B$55,0)),MATCH(J50,$B$6:$B$55,0),MATCH(J50,$F$6:$F$55,0))),INDEX($G$6:$G$55, IF(ISNUMBER(MATCH(J50,$B$6:$B$55,0)),MATCH(J50,$B$6:$B$55,0),MATCH(J50,$F$6:$F$55,0))))``
+
+<br/>
 
 ![](function_results.jpg)
 
@@ -32,11 +36,16 @@ The result shows that morning hours from 6 to 8 has the lowest total finished ri
 
 ![](formula.jpg)
 
+**Formulas**
+
 Bolt income per year
 ``=(C7*C8)*C9*12``
+<br/>
 
 Value per applicant per year
 ``=((C7*C8)*12 - C10)/(C14*C15*C16)``
+
+<br/>
 
 ![](formula_result.jpg)
 
@@ -45,11 +54,16 @@ Value per applicant per year
 
 ![](drivers.jpg)
 
+**Formulas**
+
 Total Nr of Uncompleted bookings for 1 driver
 `=SUM(C6,D6,E6,F6)`
+<br/>
 
 % ratio of uncompleted bookings for 1 driver
 `=H6/(G6+H6)`
+
+<br/>
 
 ![](driver_result.jpg)
 
